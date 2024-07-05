@@ -37,7 +37,8 @@ pip install beautifulsoup4
 ```
 # running the frontend 
 go to frontend directory using command cd frontend 
-install the node_modules using <br/>
+install the node_modules and run the development server
+```sh
 `npm install`
-run the development server by using command <br/> 
 `npm run dev`
+```
