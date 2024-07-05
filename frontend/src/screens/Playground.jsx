@@ -22,6 +22,7 @@ function Playground() {
         },
       });
       const response = await request.json();
+      console.log(response)
       if (response.success) {
         const object = {
           url: url,
@@ -30,7 +31,10 @@ function Playground() {
         setresults((e) => [...e, object]);
         setresult(response.output);
         setloading(false);
-        seterror(false);
+        if(response.output == "Phishing URL"){
+          seterror(true);
+          seterrorMsg(response.output);
+        }
       } else {
         seterrorMsg(response.output);
         setloading(false);
