@@ -6,41 +6,7 @@ Here are the instructions to run our project.
 import necessary libraries like numpy, pandas, matplotlib, sckit-learn
 <br/>
 ```sh
-pip install numpy
-pip install pandas
-pip install matplotlib
-pip install -U scikit-learn
-```
-# Spinning up the API
-
-go to the api directory
-```sh
-cd api
-```
-install necessary libraries like fastapi,pydantic, validators <br/>
-```sh
-pip install fastapi 
-pip install pydantic
-pip install validators
-```
-to run the api use this command <br/>
-```sh
-fastapi dev main.py
-```
-# Extracting features
-Extracting features is the most important part of our project. This part of our project extracts all the 111 features from the url that then determines wether the url is phishing or not by predicting the outcomes through our pre-trained model. To achieve this, we need many http libraries, along with the couting number of entities in the url. For Feature extraction, you will need to install these libraries.
-install necessary libraries 
-```sh
-pip install urllib3
-pip install re
-pip install socket
-pip install dnspython
-pip install whois
-pip install pyOpenSSL
-pip install requests
-pip install datetime
-pip install ipwhois
-pip install beautifulsoup4
+pip install -r requirements.txt
 ```
 # running the frontend 
 go to frontend directory using command 
