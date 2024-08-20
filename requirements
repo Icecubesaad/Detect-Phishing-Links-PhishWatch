@@ -1,0 +1,22 @@
+# General Libraries
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# API Libraries
+fastapi
+pydantic
+validators
+
+# Feature Extraction Libraries
+urllib3
+re
+socket
+dnspython
+whois
+pyOpenSSL
+requests
+datetime
+ipwhois
+beautifulsoup4
